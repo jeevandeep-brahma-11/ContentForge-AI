@@ -1,0 +1,72 @@
+{
+  "run_id": "a1b2c3d4e5f6",
+  "input": {
+    "idea": "Why junior engineers should learn Rust in 2026",
+    "niche": "programming tutorials",
+    "target_length_minutes": 8,
+    "tone": "direct, contrarian"
+  },
+  "outputs": {
+    "research": {
+      "summary": "Rust content on YouTube is saturated with 'Rust vs Go' videos; gap exists for career-angle content aimed at early-career engineers.",
+      "trending_angles": [
+        "Rust for systems programming beginners",
+        "Memory safety without the jargon",
+        "Why FAANG teams are migrating to Rust"
+      ],
+      "target_keywords": ["learn rust 2026", "rust for beginners", "rust career", "rust vs go jobs"],
+      "competitor_gaps": ["Career ROI framing", "Non-systems use cases (web, CLI tools)"],
+      "audience_pain_points": ["Steep learning curve", "Unclear job market signal", "Tutorial hell"]
+    },
+    "ideation": {
+      "chosen_angle": {
+        "title": "I Learned Rust in 30 Days — Here's What Nobody Tells Junior Devs",
+        "hook": "Rust isn't hard. The way it's taught is broken.",
+        "premise": "A pragmatic 30-day roadmap for early-career engineers, framed around career ROI not syntax.",
+        "why_it_wins": "Hits the career-angle gap competitors ignore; promises a concrete outcome."
+      },
+      "target_audience": "Engineers 0-3 years experience, currently writing JS/Python, considering a systems language",
+      "tone": "direct, contrarian, no fluff"
+    },
+    "script_writer": {
+      "hook": "Rust isn't hard. The way it's taught is broken — and it's costing junior engineers jobs.",
+      "script": "[full ~1200 word narration would appear here]",
+      "cta": "If this saved you 3 months of tutorial hell, drop a comment with your day-1 goal."
+    },
+    "validation": {
+      "scores": {"clarity": 9, "engagement": 9, "seo_fit": 8, "virality": 8, "retention_risk": 8},
+      "overall": 8.4,
+      "decision": "approve",
+      "strengths": ["Strong contrarian hook", "Concrete promise", "Clear audience"],
+      "weaknesses": ["Could tighten middle section"]
+    },
+    "optimization": {
+      "title": "I Learned Rust in 30 Days — Here's What Nobody Tells Juniors",
+      "description": "Rust isn't hard. The way it's taught is broken...",
+      "tags": ["learn rust", "rust 2026", "rust for beginners", "rust career", "rust vs go", "programming career", "systems programming"],
+      "thumbnail_text_options": ["RUST IN 30 DAYS", "NOBODY TOLD ME", "RUST ≠ HARD", "STOP LEARNING WRONG"]
+    },
+    "media_generation": {
+      "voiceover_script": "[clean narration]",
+      "scenes": [
+        {"index": 1, "narration": "Rust isn't hard. The way it's taught is broken.", "visual_prompt": "Close-up of a frustrated developer at a cluttered desk, multiple monitors showing compiler errors, warm tungsten lighting, shallow depth of field, cinematic 35mm", "duration_seconds": 5.0, "on_screen_text": ""}
+      ],
+      "thumbnail_prompts": [
+        "Split composition: confused junior dev on left in muted tones, confident version of same dev on right in vibrant orange and teal, bold contrast, cinematic lighting"
+      ]
+    }
+  },
+  "logs": [
+    {"agent": "research", "event": "start", "ts": "2026-04-19T22:40:00Z"},
+    {"agent": "research", "event": "complete", "message": "confidence=0.85", "ts": "2026-04-19T22:40:12Z"},
+    {"agent": "ideation", "event": "start", "ts": "2026-04-19T22:40:12Z"},
+    {"agent": "ideation", "event": "complete", "message": "confidence=0.82", "ts": "2026-04-19T22:40:22Z"},
+    {"agent": "script_writer", "event": "start", "ts": "2026-04-19T22:40:22Z"},
+    {"agent": "script_writer", "event": "complete", "message": "confidence=0.80", "ts": "2026-04-19T22:40:45Z"},
+    {"agent": "validation", "event": "start", "ts": "2026-04-19T22:40:45Z"},
+    {"agent": "validation", "event": "complete", "message": "confidence=0.84", "ts": "2026-04-19T22:40:52Z"},
+    {"agent": "optimization", "event": "complete", "message": "confidence=0.85", "ts": "2026-04-19T22:41:02Z"},
+    {"agent": "media_generation", "event": "complete", "message": "confidence=0.80", "ts": "2026-04-19T22:41:20Z"},
+    {"agent": "orchestrator", "event": "awaiting_approval", "ts": "2026-04-19T22:41:20Z"}
+  ]
+}
